@@ -1,20 +1,22 @@
 class dog{
-
+    dog(){
+        System.out.println("Dog name is pitbul");
     }
 }
 class cat extends dog{
-    public String namec(){
-        return "luna";
+    cat (){
+        System.out.println("cat name is luna ");
+    }
+}
+class name extends cat{
+    name(){
+        System.out.println("these are names of pets.");
     }
 }
 
-
-
 public class inheritence {
     public static void main() {
-        //dog d = new dog();
-        cat d = new cat();
-        System.out.println(d.namec());
+        name d = new name();
 
 
     }
