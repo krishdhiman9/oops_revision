@@ -12,11 +12,10 @@ class calculator{
     }
 }
 
-
 public class revision {
     public static void main() {
         calculator c = new calculator();
         System.out.println(c.sum(2,3,4,5));
-
     }
 }
+
