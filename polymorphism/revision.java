@@ -1,3 +1,5 @@
+//polymorphism used method overloading and method overriding.
+
 package polymorphism;
 //method overloading
 //class calculator{
