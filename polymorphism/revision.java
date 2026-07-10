@@ -21,7 +21,7 @@ package polymorphism;
 //    }
 //}
 
-//methor overriding
+//method overriding
 class Animal {
     void sound(){
         System.out.println("meaoww");
