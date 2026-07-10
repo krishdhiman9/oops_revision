@@ -43,8 +43,10 @@ class cow extends dog{
 public class revision{
 public static void main() {
     Animal a = new Animal();
+    dog d = new dog();
     cow c = new cow();
     a.sound();
+    d.sound();
     c.sound();
 }
 }
