@@ -35,7 +35,6 @@ public class basic {
         Dog d = new Dog();
         d.sound();
         d.eat();
-
         System.out.println();
 
         Cat c = new Cat();
