@@ -7,6 +7,7 @@ class student{
         roll = r;
     }
     public int getRoll(){
+
         return roll;
     }
 }
