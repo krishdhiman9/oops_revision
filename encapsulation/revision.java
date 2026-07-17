@@ -3,6 +3,7 @@ class student{
     private  int roll = 0 ;
 
     public void setRoll(int r){
+
         roll = r;
     }
     public int getRoll(){
