@@ -59,3 +59,11 @@ class cat extends animal{
         System.out.println("meaow");
     }
 }
+
+public class basic{
+    public static void main(String[] args) {
+        animal a = new dog();
+        a.sound();
+        a.eat();
+    }
+}
