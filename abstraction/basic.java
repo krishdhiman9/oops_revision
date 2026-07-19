@@ -65,5 +65,9 @@ public class basic{
         animal a = new dog();
         a.sound();
         a.eat();
+
+        animal b = new cat();
+        b.sound();
+        b.eat();
     }
 }
