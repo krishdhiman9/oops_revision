@@ -46,7 +46,7 @@ package abstraction;
 abstract class animal{
     abstract void sound();
     void eat(){
-        System.out.println("eating");
+        System.out.println("animal eating");
     }
 }
 class dog extends animal{
@@ -56,7 +56,7 @@ class dog extends animal{
 }
 class cat extends animal{
     void sound(){
-        System.out.println("meaow");
+        System.out.println("meaowwww");
     }
 }
 
