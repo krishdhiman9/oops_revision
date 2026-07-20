@@ -50,11 +50,15 @@ abstract class animal{
     }
 }
 class dog extends animal{
+    dog(){ //constructor
+        System.out.println("dog is very dangerous");
+    }
     void sound(){
         System.out.println("barking");
     }
 }
 class cat extends animal{
+
     void sound(){
         System.out.println("meaowwww");
     }
