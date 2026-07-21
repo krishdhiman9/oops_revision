@@ -79,8 +79,5 @@ public class basic{
         animal b = new cat();
         b.sound();
         b.eat();
-
-
-
     }
 }
