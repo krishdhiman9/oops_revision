@@ -2,7 +2,7 @@ package inheritence;
 
 class dog{
     dog(){
-        System.out.println("Dog name is pitbul");
+        System.out.println("Dog name is pitbull");
     }
 }
 class cat extends dog {
@@ -20,7 +20,7 @@ public class pracQ {
     public static void main() {
         //dog object
         dog d = new dog();
-        name n = new name();
-        cat c  = new cat();
+//        name n = new name();
+//        cat c  = new cat();
     }
 }
