@@ -18,7 +18,9 @@ class name extends cat {
 
 public class pracQ {
     public static void main() {
-        name d = new name();
+        //dog object
+        dog d = new dog();
+        name n = new name();
         cat c  = new cat();
     }
 }
