@@ -14,7 +14,7 @@ class student{
 public class revision  {
     static void main() {
         student n = new student();
-        n.setRoll(5);
+        n.setRoll(56);
         System.out.println(n.getRoll());
     }
 }
