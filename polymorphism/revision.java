@@ -33,21 +33,22 @@ class dog extends Animal{
         System.out.println("dog barking");
     }
 }
-class cow extends dog{
-    //@Override
-    void sound(){
-        System.out.println("cow's sound");
-    }
-}
+//class cow extends dog{
+//    //@Override
+//    void sound(){
+//        System.out.println("cow's sound");
+//    }
+//
+
 
 public class revision{
 public static void main() {
     Animal a = new Animal();
     dog d = new dog();
-    cow c = new cow();
+    //cow c = new cow();
     a.sound();
     d.sound();
-    c.sound();
+    //c.sound();
 }
 }
 
