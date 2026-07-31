@@ -14,6 +14,6 @@ class calculator{
 public class calc {
     static void main() {
         calculator c = new calculator();
-        System.out.println(c.sum(12,3,4,5));
+        System.out.println(c.sum(12,3,44,5));
     }
 }
