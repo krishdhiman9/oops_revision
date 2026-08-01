@@ -27,6 +27,7 @@ class cat extends animal{
 
 public class basic{
     public static void main(String[] args) {
+
         animal a = new dog();
         a.sound();
         a.eat();
