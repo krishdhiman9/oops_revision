@@ -19,7 +19,7 @@ class name extends cat {
 public class pracQ {
     public static void main() {
         //dog object
-//        dog d = new dog();
+        //dog d = new dog();
         name n = new name();
         //cat c  = new cat();
     }
