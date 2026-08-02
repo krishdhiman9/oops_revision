@@ -20,6 +20,11 @@ class Cat implements Animal{
 
 public class Interface {
     public static void main() {
+        Cat c = new Cat();
+        c.sound();
+
+        Dog d = new Dog();
+        d.sound();
 
     }
 }
