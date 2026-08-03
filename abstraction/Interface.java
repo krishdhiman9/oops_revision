@@ -8,13 +8,13 @@ interface Animal{
 
 class Dog implements Animal{
     public void sound(){
-        System.out.println("barking");
+        System.out.println("dog sound : barking");
     }
 }
 
 class Cat implements Animal{
     public void sound(){
-        System.out.println("meow");
+        System.out.println("cat sound : meow");
     }
 }
 
