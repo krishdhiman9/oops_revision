@@ -1,7 +1,5 @@
 package abstraction;
 
-import javax.crypto.spec.PSource;
-
 interface Animal{
     void sound();
 }
